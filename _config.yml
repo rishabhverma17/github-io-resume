@@ -57,7 +57,7 @@ content:
   - title: Technical Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      #- layout: top-middle
+      - layout: top-middle
       #  title: Super awesome project
       #  link: github.com/rishabhverma17
         # link_text: Project Website
