@@ -58,7 +58,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-      description: | # this will include new lines to allow paragraphs
+        description: | # this will include new lines to allow paragraphs
           <mark>Tech Stack:</mark> Java 8, SpringBoot, Dropwizard, MongoDB, SQL, Aerospike, RESTful API’s, Kafka, Microservices, Data Structures, Algorithms, Agile Development, Elasticsearch, Logstash, Kibana
           
           <mark>Tools:</mark> GIT, Jenkins, Maven, Gradle, Kubernetes, Docker, Pinpoint 
