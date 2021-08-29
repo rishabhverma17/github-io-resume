@@ -31,9 +31,10 @@ linkedin_username: rishabhverma1
 
 # Additional icon links
 additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+additional_links:
+- title: View or Download My Resume
+  icon: fas fa-file-download
+  url: https://rishabhverma17.github.io/DevOpsing_Resume/Resume_RishabhVerma_SDE.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,10 +53,6 @@ about_content: | # this will include new lines to allow paragraphs
   evolving the architecture for performance and scalability.Experience of Object-Oriented Programming, Object-Oriented Design, Messaging, Event Streaming,Data Structures and Algorithms, Prevalent Design Patterns, Caching,NoSQL, RDBMS.
 
   I am most skilled in: <mark>Distributed Systems</mark> and <mark>Eating Pizza</mark>
-additional_links:
-- title: View or Download My Resume
-  icon: fas fa-file-download
-  url: https://rishabhverma17.github.io/DevOpsing_Resume/Resume_RishabhVerma_SDE.pdf
 
 content:
   - title: Technical Skills # Title for the section
