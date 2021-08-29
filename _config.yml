@@ -98,8 +98,8 @@ content:
             <mark>Auto Suggest:</mark> Created new the de-duplication pipeline for better results.
       - layout: left
         title: Delhi Integrated Multi Modal Transit System
-        link: dimts.in/
-        link_text: https://www.dimts.in/
+        link: dimts.in
+        link_text: dimts.in
         sub_title: Software Development Engineer
         caption: January 2019 - January 2020
         description: | # this will include new lines to allow paragraphs
