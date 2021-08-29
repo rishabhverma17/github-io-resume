@@ -48,69 +48,120 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Rishabh and I'm a Software Development Engineer 2 @ Snapdeal. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Rishabh and I'm a Software Development Engineer 2 @ Snapdeal. I have experience in developing low latency, highly scalable, fault-tolerant, distributed backend services and 
+  evolving the architecture for performance and scalability.Experience of Object-Oriented Programming, Object-Oriented Design, Messaging, Event Streaming,Data Structures and Algorithms, Prevalent Design Patterns, Caching,NoSQL, RDBMS.
 
   I am most skilled in: <mark>Distributed Systems</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Technical Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+      #- layout: top-middle
+      #  title: Super awesome project
+      #  link: github.com/rishabhverma17
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        #quote: >  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          <mark>Tech Stack:</mark> Java 8, SpringBoot, Dropwizard, MongoDB, SQL, Aerospike, RESTful API’s, Kafka, Microservices, Data Structures, Algorithms, Agile Development, Elasticsearch, Logstash, Kibana
+          <mark>Tools:</mark> GIT, Jenkins, Maven, Gradle, Kubernetes, Docker, Pinpoint 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Snapdeal
+        link: snapdeal.com
+        link_text: snapdeal.com
+        sub_title: Software Development Engineer II
+        caption: March 2021 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Working in Buyers Platform Backend team, Developing highly available and scalable distributed backend services for Buyers Platform.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            <mark>Checkout Service:</mark> Improved the checkout service API’s by pre-processing time taking tasks asynchronously and caching external network calls resulting in reduced overall response time by 30% .
+            
+            <mark>OPMS:</mark> Introduced a Rate Limiter and Async workflow using Kafka for crediting Snapcash to users having a TPS around 115+ requests or 10 Million requests a day.
+
+            <mark>Referral System:</mark> Creating a new system from scratch for crediting user snapcash for successful referral and also on completing certain milestones like purchase etc. In this System I am owning the design and development of complete service. Starting from Databases till all the services.
+
+      - layout: left
+              title: Yatra Online Pvt Ltd
+              link: yatra.com
+              link_text: yatra.com
+              sub_title: Software Development Engineer
+              caption: January 2020 - February 2021
+              quote: >
+                I was working in their Hotels Engineering core team.
+              description: | # this will include new lines to allow paragraphs
+                  <mark>Build Your Own Package:</mark> Holidays Platform: Building a new Holidays platform at Yatra from scratch in which user can select the destination(s) and date(s) of travel and we would provide them with curated low cost and best star rating package which includes Hotel, Travel(Flight or Intra/Inter state CAB). User can change/replace or update any particular component in the base package from UI making it customizable as per user needs.
+                  
+                  <mark>Central Logging Pipeline:</mark> Designed a central logger service for external microservices metric logging. This service is made agnostic and easy to integrate with all other microservices.
+                  
+                  <mark>Auto Suggest:</mark> Created new the de-duplication pipeline for better results.
+      - layout: left
+              title: Delhi Integrated Multi Modal Transit System
+              link: https://www.dimts.in/
+              link_text: https://www.dimts.in/
+              sub_title: Software Development Engineer
+              caption: January 2019 - January 2020
+              description: | # this will include new lines to allow paragraphs
+                  <mark>Designed DMRC and DIMTS Reconciliation System:</mark> This System reduced reconciliation time by 70% and also eliminated manual effort.
+                  
+                  <mark>Developed Automated Recovery Service:</mark> Developed tool for automated recovery of trips and shifts corrupted due to operational issues of ETM machine.
+                  
+                  <mark>ETM Challan:</mark> Redesigned ETM Challan module so that ETM machines can be moved more than once a day. Impact: Reduced ETM Movement cost by 30%
+
+      - layout: left
+              title: Aperta Limited
+              link: aperta.com
+              link_text: aperta.com
+              sub_title: Software Engineer
+              caption: August 2016 - January 2019
+              description: | # this will include new lines to allow paragraphs
+                  Developed Interface Utility Bank’s in-house utility which interacts with Core banking system (CBS) and Cheque truncation system (CTS), It Reduced the time by 75% to process 70,000 to 1,00,000 instruments from 16 seconds to less than 4 seconds by redesigning the algorithm.
+                  
+                  Developed Clearing House Master Utility which reduced overall processing time by 30%: This was achieved by removing bottlenecks, redesigning algorithm and using data structures to aggregate data, process them, create banking software’s business rules and update all Nodal branch systems remotely over network.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Sharda University
+        caption: 2012 - 2016
+        sub_title: Bachelor Of Technology (B.Tech) in Computer Science
+        
+        - layout: top-middle
+          title: GestureIT
+          link: gestureit.rishabhverma.in
+          link_text: Project Website
+        
+        - layout: top-middle
+          title: Abbreviation Translator
+          link: github.com/rishabhverma17/sms_slang_translator
+          link_text: Project Repository
+        #description: | # this will include new lines to allow paragraphs
+          #During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          #I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  #- title: A Little More About Me
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
+  #    Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #    - Rock climbing
+  #    - Gaming
+  #    - Knitting
+  #    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  #    Look at this cool image  
+  #    ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
