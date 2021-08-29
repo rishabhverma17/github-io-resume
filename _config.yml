@@ -137,15 +137,15 @@ content:
         caption: 2012 - 2016
         sub_title: Bachelor Of Technology (B.Tech) in Computer Science
         
-        - layout: top-middle
-          title: GestureIT
-          link: gestureit.rishabhverma.in
-          link_text: Project Website
-        
-        - layout: top-middle
-          title: Abbreviation Translator
-          link: github.com/rishabhverma17/sms_slang_translator
-          link_text: Project Repository
+      - layout: top-middle
+        title: GestureIT
+        link: gestureit.rishabhverma.in
+        link_text: Project Website
+      
+      - layout: top-middle
+        title: Abbreviation Translator
+        link: github.com/rishabhverma17/sms_slang_translator
+        link_text: Project Repository
         #description: | # this will include new lines to allow paragraphs
           #During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
