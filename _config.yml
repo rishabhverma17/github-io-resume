@@ -94,7 +94,7 @@ content:
             
             <mark>Central Logging Pipeline:</mark> Designed a central logger service for external microservices metric logging. This service is made agnostic and easy to integrate with all other microservices.
             
-            <mark>Auto Suggest:</mark> Created new the de-duplication pipeline for better results.
+            <mark>Auto Suggest:</mark> Created a new de-duplication pipeline for better results.
       - layout: left
         title: Delhi Integrated Multi Modal Transit System
         link: dimts.in
