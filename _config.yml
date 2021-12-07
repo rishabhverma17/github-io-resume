@@ -59,9 +59,9 @@ content:
     content:
       - layout: top-middle
         description: | # this will include new lines to allow paragraphs
-          <mark>Tech Stack:</mark> Java 8, SpringBoot, Dropwizard, MongoDB, SQL, Aerospike, RESTful API’s, Kafka, Microservices, Data Structures, Algorithms, Agile Development, Elasticsearch, Logstash, Kibana
+          <mark>Tech Stack:</mark> Java 8, SpringBoot, MySQL, Cassandra, MongoDB, Aerospike, RESTful API’s, Kafka, Microservices, Data Structures, Algorithms, Agile Development, Elasticsearch, Logstash
           
-          <mark>Tools:</mark> GIT, Jenkins, Maven, Gradle, Kubernetes, Docker, Pinpoint 
+          <mark>Tools:</mark> GIT, Jenkins, Maven, Gradle, Kubernetes, Docker, Pinpoint, Icinga, Grafana, Kibana
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -75,11 +75,14 @@ content:
         quote: >
           Working in Buyers Platform Backend team, Developing highly available and scalable distributed backend services for Buyers Platform.
         description: | # this will include new lines to allow paragraphs
+            <mark>Snapdeal Pro Subscription:</mark> Designing a new service which is a subscription based system. Users can buy different plans available to avail more discounts and better offers than other non pro users.
+            
+            <mark>Reward & Referral System:</mark> Successfully designed and deployed a new Referral and Reward service from scratch. My ownership includes designing the systems high level design, low level design, implementation of services and moving system to production. Initial stats shows 63,000+(Daily Avg) new and returning users signed up for this program. Which directly impacted sales and customer retention.
+            
             <mark>Checkout Service:</mark> Improved the checkout service API’s by pre-processing time taking tasks asynchronously and caching external network calls resulting in reduced overall response time by 30% .
             
-            <mark>OPMS:</mark> Introduced a Rate Limiter and Async workflow using Kafka for crediting Snapcash to users having a TPS around 115+ requests or 10 Million requests a day.
-
-            <mark>Referral System:</mark> Creating a new system from scratch for crediting user snapcash for successful referral and also on completing certain milestones like purchase etc. In this System I am owning the design and development of complete service. Starting from Databases till all the services.
+            <mark>OPMS:</mark> Introduced a automated Dynamic Rate Limiter and moved credit call from Sync to Async flow which can handles the rate limiting dynamically at runtime. Reducing load on service and making it much easier to re-try in case of errors.
+            
 
       - layout: left
         title: Yatra Online Pvt Ltd
