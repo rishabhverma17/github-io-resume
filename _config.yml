@@ -49,7 +49,7 @@ google_analytics: "UA-206187355-1"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Rishabh and I'm a Software Development Engineer 2 @ Snapdeal. I have experience in developing low latency, highly scalable, fault-tolerant, distributed backend services and evolving the architecture for performance and scalability.Experience of Object-Oriented Programming, Object-Oriented Design, Messaging, Event Streaming,Data Structures and Algorithms, Prevalent Design Patterns, Caching,NoSQL, RDBMS.
+  Hi, my name is Rishabh and I'm a Software Development Engineer 2 @ Microsoft. I have experience in developing low latency, highly scalable, fault-tolerant, distributed backend services and evolving the architecture for performance and scalability.Experience of Object-Oriented Programming, Object-Oriented Design, Messaging, Event Streaming,Data Structures and Algorithms, Prevalent Design Patterns, Caching,NoSQL, RDBMS.
 
   I am most skilled in: <mark>Distributed Systems</mark> and <mark>Eating Pizza</mark>
 
@@ -71,9 +71,9 @@ content:
         link: microsoft.com
         link_text: microsoft.com
         sub_title: Software Development Engineer II
-        caption: May 2021 - Present
+        caption: May 2022 - Present
         quote: >
-          Working in C+E PSX SPARK DEV Team.
+          Working in Consumer and Experience(C+E) Team. This team opetates under Azure C+AI.
         description: | # this will include new lines to allow paragraphs
             
   
