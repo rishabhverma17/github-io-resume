@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Rishabh Verma
-title: Engineering @ Snapdeal
+title: Engineering @ Microsoft
 email: rishabhverma17@gmail.com
 website: resume.rishabhverma.in
 
@@ -67,11 +67,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Microsoft
+        link: microsoft.com
+        link_text: microsoft.com
+        sub_title: Software Development Engineer II
+        caption: May 2021 - Present
+        quote: >
+          Working in C+E PSX SPARK DEV Team.
+        description: | # this will include new lines to allow paragraphs
+            
+  
+  
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
         title: Snapdeal
         link: snapdeal.com
         link_text: snapdeal.com
         sub_title: Software Development Engineer II
-        caption: March 2021 - Present
+        caption: March 2021 - May 2022
         quote: >
           Working in Buyers Platform Backend team, Developing highly available and scalable distributed backend services for Buyers Platform.
         description: | # this will include new lines to allow paragraphs
