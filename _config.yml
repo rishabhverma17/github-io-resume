@@ -59,9 +59,9 @@ content:
     content:
       - layout: top-middle
         description: | # this will include new lines to allow paragraphs
-          <mark>Tech Stack:</mark> Java 8, SpringBoot, MySQL, Cassandra, MongoDB, Aerospike, RESTful API’s, Kafka, Microservices, Data Structures, Algorithms, Agile Development, Elasticsearch, Logstash
+          <mark>Tech Stack:</mark> C#, Azure Service Fabric, Azure Service Bus, Azure, Cosmos, Redis, Java 8, SpringBoot, MySQL, Cassandra, MongoDB, Aerospike, RESTful API’s, Kafka, Microservices, Data Structures, Algorithms, ELK
           
-          <mark>Tools:</mark> GIT, Jenkins, Maven, Gradle, Kubernetes, Docker, Pinpoint, Icinga, Grafana, Kibana
+          <mark>Tools:</mark> App Insights, Geneva Logging, Kusto, KQL, GIT, Jenkins, Maven, Gradle, Kubernetes, Docker, Pinpoint, Icinga, Grafana, Kibana
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -73,9 +73,13 @@ content:
         sub_title: Software Development Engineer II
         caption: May 2022 - Present
         quote: >
-          Working in Commerce and Ecosystem(C+E) Team. This team opetates under Azure C+AI.
+          Working in C+E SPS SPARK. This team opetates under Azure C+AI. Wroking in the Accounts team of SPS Spark Org.
         description: | # this will include new lines to allow paragraphs
-
+          <mark>AAD Graph Migration:</mark> Migrated Our Service from AAD Graph to MS Graph with no bugs.
+          
+          <mark>Migrated from EUA to EUAM:</mark> Migrated PrOSE service from EUA to EUAM for authorization and roles without any downtime.
+          
+          <mark>Surface Program Ob-Boarding:</mark> Worked on Post enrollment part of Surface Partner On boarding to Partner Center.
   
       - layout: left
         title: Snapdeal
